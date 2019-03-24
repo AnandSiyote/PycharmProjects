@@ -1,0 +1,20 @@
+Git Commands
+
+git --version //check version of Git
+git status //check status of Git
+git init // initialise Git
+git add . //add created files to staging
+git commit -m "Added Utils file" //commit with comments
+git push -u origin master //push code to Git Repository
+git log // Log of Git
+ git pull origin master //pull code from Git repository
+git diff FileName // Find diff in file name
+git diff FileName --staged //check diff in files in staged state
+git reset FileName //Unstaged as already staged file
+git checkout FileName // Get the file in stage before changes were made
+git checkout . //go back to old commit for all files
+
+git add - A //stages ALL
+git add . //stages new and modified, without deleted
+git add -u //stages modified and deleted, without new
+touch .gitignore //to ignore files that are not to be updated in repo
